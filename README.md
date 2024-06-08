@@ -1,6 +1,6 @@
 # Advancing-Cardiac-Care-The-Future-of-Portable-ECG-Technology
 
-This repository contains the source code and documentation for an ECG signal processing and RF communication protocol project. The project involves a central controller and receiver, with RF settings configured for optimal data transmission. Additionally, it includes Python scripts for denoising and preprocessing EKG signals.
+This repository contains the source code and documentation for an ECG signal processing and RF communication protocol. The project involves a central controller and receiver, with RF settings configured for optimal data transmission to synchronize multiple EKG portable boards. Additionally, it includes Python scripts for denoising and preprocessing EKG signals.
 
 Project Overview
 This project focuses on developing a robust communication protocol for transmitting EKG data using RF technology. The communication protocol is implemented in C, while the EKG signal denoising and preprocessing are handled using Python.
