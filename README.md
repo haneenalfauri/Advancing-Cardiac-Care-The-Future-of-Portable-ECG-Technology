@@ -14,3 +14,9 @@ Portable Boards.c: The C code for the receiver, which stays in RX mode, buffers 
 RF_settings.h: The header file containing RF configuration settings essential for compatibility between the controller and receiver.
 
 Report_Results.pdf: A comprehensive report detailing the full communication protocol, including the transmission cycle, RF settings, and data handling methods.
+
+**Summary of Communication Protocol**
+The communication protocol developed in this project ensures reliable transmission of EKG data using RF technology. The central controller uses a round-robin method to give each device an equal opportunity to transmit data, while the receiver stays in RX mode to buffer incoming EKG readings and wait for acknowledgment signals. This approach minimizes data collisions and ensures a smooth flow of information.
+
+**Python Scripts for EKG Signal Processing**
+The Python scripts provided in this repository are designed to denoise and preprocess EKG signals. These scripts implement advanced signal processing techniques to enhance the quality of EKG data before transmission.
