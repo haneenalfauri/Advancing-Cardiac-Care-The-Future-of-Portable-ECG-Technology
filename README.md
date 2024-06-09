@@ -20,3 +20,6 @@ The communication protocol developed in this project ensures reliable transmissi
 
 **Python Scripts for EKG Signal Processing**
 The Python scripts provided in this repository are designed to denoise and preprocess EKG signals. These scripts implement advanced signal processing techniques to enhance the quality of EKG data before transmission.
+
+
+Feel free to explore the repository and reach out if you have any questions or need further assistance. :)
